@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.maincontent{
+
+width: 100%;
+padding: 0px;
+
+height: 100%;
+display: flex;
+
+}
+.networkView{
+width: 79%;
+border: 1px solid black;
+margin-right: 5px;
+margin-left: 20px;
+
+
+}
+.details{
+
+  width: 19%;
+  border: 1px solid black;
+  padding: 10px;
+ 
+}
+.select{
+  width: 100%;
+  padding: 5px;
+ 
+  margin: auto;
+  margin-bottom: 5px;
+  height: 100px;
+  display: flex;
+  
+}
+.textfield{
+
+  width: 30%;
+}
+.formControl{
+  width: 30%;
+  margin-left: 5px;
+ 
+}
+.details h3{
+  border-bottom: 1px dotted black;
+  vertical-align:sub;
+  width: 100%;
+  padding: 0px;
+    margin: 0px;
+}
