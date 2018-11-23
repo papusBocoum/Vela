@@ -52,3 +52,148 @@ margin-left: 20px;
   padding: 0px;
     margin: 0px;
 }
+
+.videos{
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+
+}
+
+.up{
+  width: 100%;
+  height: 59%;
+  
+
+}
+
+.down{
+  width: 100%;
+  height: 39%;
+
+  margin-top: 8px;
+
+}
+
+.image{
+  background: sienna;
+  height: 100%;
+}
+
+.video{
+height: 100%;
+width: 50%;
+
+float: left;
+
+}
+.picture{
+
+  width: "100px";
+  height: "100px";
+}
+
+/* Text component Styling  */
+.principal{
+  width: 100%;
+  padding: 0px;
+  
+  height: 900px;
+  display: flex;
+
+flex-direction: row;
+
+}
+
+.bubbles{
+
+width: 40%;
+height: 100%;
+
+padding: 5px;
+border: 1px solid black;
+
+}
+.graph{
+  width: 30%;
+height: 100%;
+border: 1px solid black;
+
+
+}
+.text{
+  width: 30%;
+height: 100%;
+
+padding: 5px;
+display: flex;
+flex-direction: column;
+border: 1px solid black;
+
+
+}
+
+.textRaw{
+
+  width: 100%;
+  height: 60%;
+ 
+  overflow: scroll;
+
+}
+.TagCloud{
+  width: 100%;
+  height: 40%;
+  
+  overflow: scroll;
+  border: 1px solid black;
+
+}
+
+.title{
+
+  padding: 0;
+  top: 0px;
+  font: outline;
+  font-size: x-large;
+  margin-top: 0px;
+  border-bottom: 1px solid black;
+  color: white;
+  background:#01579B;
+}
+
+/* Video component Styling  */
+.Videomaincontent{
+
+  width: 100%;
+  padding: 0px;
+  
+  height: 1000px;;
+  display: flex;
+  
+
+}
+
+.corpusGraph{
+
+  width: 40%;
+
+  height: 100%;
+  border: 1px solid black;
+
+}
+.selectedVideos{
+  width: 30%;
+  
+  height: 100%;
+  border: 1px solid black;
+
+}
+.keyFrames{
+
+  width: 30%;
+  
+  border: 1px solid black; 
+}
+

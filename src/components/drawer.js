@@ -31,6 +31,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 import Select from '@material-ui/core/Select';
+import Grid from '@material-ui/core/Grid';
 
 import MediaCard from './details'
 
@@ -234,22 +235,165 @@ class PersistentDrawerLeft extends React.Component {
 
           </div>
         
-          <div className="maincontent">
-          <div className="networkView">
-          <Treemap></Treemap>
+          <div className="Videomaincontent">
+          <div className="corpusGraph">
+          <h1 className="title">Corpus</h1>
+          <Network/>
 
           </div>
-          <div className="details">
-          <h3>Selections</h3>
+          <div className="selectedVideos">
+          <h1 className="title">Selected Videos</h1>
+          <div class="card" style={{width: "100%"}}>
+          <video style={{width:"100%", height:"100%"}}  controls>
+  <source src="/video/test.mp4" type="video/mp4"/>
+  
+Your browser does not support the video tag.
+</video>
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" style={{width: "100%"}}>
+          <video style={{width:"100%", height:"100%"}}  controls>
+  <source src="/video/test.mp4" type="video/mp4"/>
+  
+Your browser does not support the video tag.
+</video>
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
 
-          <MusicCard>
 
-          </MusicCard>
-          <MusicCard>
-            
-          </MusicCard>
 
           </div>
+          <div className="keyFrames">
+          <h1 className="title">Key Frames</h1>
+          <div class="container">
+  <div class="row">
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+  </div>
+</div>
+<hr/>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+    <div class="col-sm">
+    <img src="/video/51.jpg"  width="100%" height="100%" ></img>
+    </div>
+  </div>
+</div>
+
+
+          </div>
+          
+          
+          
 
 
 
